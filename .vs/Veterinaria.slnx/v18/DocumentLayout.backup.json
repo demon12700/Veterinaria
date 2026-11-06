@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|solutionrelative:animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\dueno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|solutionrelative:dueno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|solutionrelative:animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\dueno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|solutionrelative:dueno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dueno.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Dueno.cs",
+              "RelativeDocumentMoniker": "Dueno.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Dueno.cs",
+              "RelativeToolTip": "Dueno.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwGcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T13:12:44.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dueno.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Dueno.cs",
+              "RelativeDocumentMoniker": "Dueno.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Dueno.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Dueno.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T13:04:32.992Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Animal.cs",
+              "RelativeDocumentMoniker": "Animal.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Animal.cs",
+              "RelativeToolTip": "Animal.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T12:39:57.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Animal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Animal.cs",
+              "RelativeDocumentMoniker": "Animal.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Animal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Animal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T12:29:50.811Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowBAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T12:29:22.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T12:28:45.153Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
