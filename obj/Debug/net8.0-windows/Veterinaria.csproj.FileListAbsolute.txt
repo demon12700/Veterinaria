@@ -39,3 +39,6 @@ C:\Users\pc\Desktop\VetSystem\Veterinaria\bin\Debug\net8.0-windows\runtimes\win\
 C:\Users\pc\Desktop\VetSystem\Veterinaria\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
 C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.csproj.AssemblyReference.cache
 C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.Dueno.resources
+C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.reporteAnimal.resources
+C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.sourcelink.json
+C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.Properties.Resources.resources

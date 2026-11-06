@@ -67,20 +67,19 @@ namespace Veterinaria
 
         private void dueñoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Dueno frmAnimal = new Dueno();
-            frmAnimal.Show();
+            Dueno frmDueño = new Dueno();
+            frmDueño.Show();
         }
 
         private void reporteDeAnimalToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Animal frmAnimal = new Animal();
-            frmAnimal.Show();
+            reporteAnimal frmReporte = new reporteAnimal();
+            frmReporte.Show();
         }
 
         private void reporteDeSistemaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Animal frmAnimal = new Animal();
-            frmAnimal.Show();
+            
         }
     }
 }

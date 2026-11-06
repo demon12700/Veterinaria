@@ -39,9 +39,13 @@
             // 
             // menuStrip1
             // 
+            menuStrip1.BackColor = SystemColors.Highlight;
+            menuStrip1.Font = new Font("Segoe UI Emoji", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            menuStrip1.GripStyle = ToolStripGripStyle.Visible;
             menuStrip1.Items.AddRange(new ToolStripItem[] { agregarToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
+            menuStrip1.RenderMode = ToolStripRenderMode.Professional;
             menuStrip1.Size = new Size(800, 24);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
@@ -50,34 +54,35 @@
             // 
             agregarToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { animalToolStripMenuItem, dueñoToolStripMenuItem, reporteDeAnimalToolStripMenuItem, reporteDeSistemaToolStripMenuItem });
             agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
-            agregarToolStripMenuItem.Size = new Size(61, 20);
+            agregarToolStripMenuItem.Padding = new Padding(10, 0, 4, 0);
+            agregarToolStripMenuItem.Size = new Size(74, 20);
             agregarToolStripMenuItem.Text = "Agregar";
             // 
             // animalToolStripMenuItem
             // 
             animalToolStripMenuItem.Name = "animalToolStripMenuItem";
-            animalToolStripMenuItem.Size = new Size(180, 22);
+            animalToolStripMenuItem.Size = new Size(193, 22);
             animalToolStripMenuItem.Text = "Animal";
             animalToolStripMenuItem.Click += animalToolStripMenuItem_Click;
             // 
             // dueñoToolStripMenuItem
             // 
             dueñoToolStripMenuItem.Name = "dueñoToolStripMenuItem";
-            dueñoToolStripMenuItem.Size = new Size(180, 22);
+            dueñoToolStripMenuItem.Size = new Size(193, 22);
             dueñoToolStripMenuItem.Text = "Dueño";
             dueñoToolStripMenuItem.Click += dueñoToolStripMenuItem_Click;
             // 
             // reporteDeAnimalToolStripMenuItem
             // 
             reporteDeAnimalToolStripMenuItem.Name = "reporteDeAnimalToolStripMenuItem";
-            reporteDeAnimalToolStripMenuItem.Size = new Size(180, 22);
+            reporteDeAnimalToolStripMenuItem.Size = new Size(193, 22);
             reporteDeAnimalToolStripMenuItem.Text = "Reporte de Animal";
             reporteDeAnimalToolStripMenuItem.Click += reporteDeAnimalToolStripMenuItem_Click;
             // 
             // reporteDeSistemaToolStripMenuItem
             // 
             reporteDeSistemaToolStripMenuItem.Name = "reporteDeSistemaToolStripMenuItem";
-            reporteDeSistemaToolStripMenuItem.Size = new Size(180, 22);
+            reporteDeSistemaToolStripMenuItem.Size = new Size(193, 22);
             reporteDeSistemaToolStripMenuItem.Text = "Reporte de Sistema";
             reporteDeSistemaToolStripMenuItem.Click += reporteDeSistemaToolStripMenuItem_Click;
             // 
