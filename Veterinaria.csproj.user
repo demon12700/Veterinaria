@@ -13,5 +13,8 @@
     <Compile Update="reporteAnimal.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ReporteSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

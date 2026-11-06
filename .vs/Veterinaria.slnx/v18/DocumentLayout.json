@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\dueno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:dueno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\dueno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:dueno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\reporteanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:reporteanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\reporteanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:reporteanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|solutionrelative:animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\reporteanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:reporteanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\reportesistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:reportesistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\reporteanimal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:reporteanimal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -35,20 +31,28 @@
       "RelativeMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\reporteanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:reporteanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\reporteanimal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:reporteanimal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\reportesistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:reportesistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\dueno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:dueno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|solutionrelative:animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\dueno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{03FAD504-618C-415C-9642-14C29E5F7D13}|Veterinaria.csproj|solutionrelative:dueno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|c:\\users\\pc\\desktop\\vetsystem\\veterinaria\\dueno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB35E2FE-F4CA-7BFD-F752-C674AABCE011}|Veterinaria.csproj|solutionrelative:dueno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,19 +66,56 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "Animal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Animal.cs",
+              "RelativeDocumentMoniker": "Animal.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Animal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Animal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T18:12:21.992Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReporteSistema.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\ReporteSistema.cs",
+              "RelativeDocumentMoniker": "ReporteSistema.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\ReporteSistema.cs",
+              "RelativeToolTip": "ReporteSistema.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T17:14:50.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReporteSistema.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\ReporteSistema.cs",
+              "RelativeDocumentMoniker": "ReporteSistema.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\ReporteSistema.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ReporteSistema.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T17:06:06.872Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T15:27:33.043Z",
+              "WhenOpened": "2026-11-06T16:25:37.569Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "reporteAnimal.Designer.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\reporteAnimal.Designer.cs",
               "RelativeDocumentMoniker": "reporteAnimal.Designer.cs",
@@ -87,20 +128,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "reporteAnimal.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\reporteAnimal.cs",
               "RelativeDocumentMoniker": "reporteAnimal.cs",
               "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\reporteAnimal.cs",
               "RelativeToolTip": "reporteAnimal.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAHMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-06T15:24:50.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "reporteAnimal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\reporteAnimal.cs",
               "RelativeDocumentMoniker": "reporteAnimal.cs",
@@ -112,19 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Animal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Animal.cs",
-              "RelativeDocumentMoniker": "Animal.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Animal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Animal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T15:14:52.693Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "Dueno.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Dueno.cs",
               "RelativeDocumentMoniker": "Dueno.cs",
@@ -136,44 +165,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "Dueno.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Dueno.cs",
               "RelativeDocumentMoniker": "Dueno.cs",
               "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Dueno.cs",
               "RelativeToolTip": "Dueno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwHoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-06T13:12:44.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Dueno.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Dueno.cs",
-              "RelativeDocumentMoniker": "Dueno.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Dueno.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Dueno.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T13:04:32.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "Animal.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Animal.cs",
               "RelativeDocumentMoniker": "Animal.cs",
               "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Animal.cs",
               "RelativeToolTip": "Animal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAvwKYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-06T12:39:57.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Animal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Animal.cs",
               "RelativeDocumentMoniker": "Animal.cs",
@@ -184,20 +202,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAcwFEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAewHAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-06T12:29:22.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\VetSystem\\Veterinaria\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

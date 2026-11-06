@@ -42,3 +42,4 @@ C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.D
 C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.reporteAnimal.resources
 C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.sourcelink.json
 C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.Properties.Resources.resources
+C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.ReporteSistema.resources

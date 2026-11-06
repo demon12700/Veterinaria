@@ -28,12 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             menuStrip1 = new MenuStrip();
             agregarToolStripMenuItem = new ToolStripMenuItem();
             animalToolStripMenuItem = new ToolStripMenuItem();
             dueñoToolStripMenuItem = new ToolStripMenuItem();
             reporteDeAnimalToolStripMenuItem = new ToolStripMenuItem();
             reporteDeSistemaToolStripMenuItem = new ToolStripMenuItem();
+            abrirToolStripMenuItem = new ToolStripMenuItem();
+            reporteDeAnimalToolStripMenuItem1 = new ToolStripMenuItem();
+            reporteDeSistemaToolStripMenuItem1 = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -42,7 +46,7 @@
             menuStrip1.BackColor = SystemColors.Highlight;
             menuStrip1.Font = new Font("Segoe UI Emoji", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             menuStrip1.GripStyle = ToolStripGripStyle.Visible;
-            menuStrip1.Items.AddRange(new ToolStripItem[] { agregarToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { agregarToolStripMenuItem, abrirToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.RenderMode = ToolStripRenderMode.Professional;
@@ -86,13 +90,37 @@
             reporteDeSistemaToolStripMenuItem.Text = "Reporte de Sistema";
             reporteDeSistemaToolStripMenuItem.Click += reporteDeSistemaToolStripMenuItem_Click;
             // 
+            // abrirToolStripMenuItem
+            // 
+            abrirToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { reporteDeAnimalToolStripMenuItem1, reporteDeSistemaToolStripMenuItem1 });
+            abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
+            abrirToolStripMenuItem.Size = new Size(50, 20);
+            abrirToolStripMenuItem.Text = "Abrir";
+            // 
+            // reporteDeAnimalToolStripMenuItem1
+            // 
+            reporteDeAnimalToolStripMenuItem1.Name = "reporteDeAnimalToolStripMenuItem1";
+            reporteDeAnimalToolStripMenuItem1.Size = new Size(193, 22);
+            reporteDeAnimalToolStripMenuItem1.Text = "Reporte de Animal";
+            // 
+            // reporteDeSistemaToolStripMenuItem1
+            // 
+            reporteDeSistemaToolStripMenuItem1.Name = "reporteDeSistemaToolStripMenuItem1";
+            reporteDeSistemaToolStripMenuItem1.Size = new Size(193, 22);
+            reporteDeSistemaToolStripMenuItem1.Text = "Reporte de Sistema";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(800, 195);
             Controls.Add(menuStrip1);
+            DoubleBuffered = true;
             MainMenuStrip = menuStrip1;
+            MaximumSize = new Size(816, 234);
+            MinimumSize = new Size(816, 234);
             Name = "Form1";
             Text = "Form1";
             menuStrip1.ResumeLayout(false);
@@ -109,5 +137,8 @@
         private ToolStripMenuItem dueñoToolStripMenuItem;
         private ToolStripMenuItem reporteDeAnimalToolStripMenuItem;
         private ToolStripMenuItem reporteDeSistemaToolStripMenuItem;
+        private ToolStripMenuItem abrirToolStripMenuItem;
+        private ToolStripMenuItem reporteDeAnimalToolStripMenuItem1;
+        private ToolStripMenuItem reporteDeSistemaToolStripMenuItem1;
     }
 }

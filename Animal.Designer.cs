@@ -92,8 +92,10 @@
             // 
             // dgv_Animales
             // 
+            dgv_Animales.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dgv_Animales.BackgroundColor = SystemColors.HotTrack;
             dgv_Animales.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_Animales.Location = new Point(323, 43);
+            dgv_Animales.Location = new Point(326, 43);
             dgv_Animales.Name = "dgv_Animales";
             dgv_Animales.Size = new Size(403, 395);
             dgv_Animales.TabIndex = 6;
@@ -139,7 +141,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = SystemColors.GradientActiveCaption;
+            BackgroundImageLayout = ImageLayout.Zoom;
+            ClientSize = new Size(741, 450);
             Controls.Add(lbl_Dueño);
             Controls.Add(cmBox_Dueño);
             Controls.Add(btn_eliminarAnimal);
@@ -151,6 +155,8 @@
             Controls.Add(txt_Edad);
             Controls.Add(txt_Tipo);
             Controls.Add(txt_Nombre);
+            MaximumSize = new Size(757, 489);
+            MinimumSize = new Size(584, 489);
             Name = "Animal";
             Text = "Animal";
             ((System.ComponentModel.ISupportInitialize)dgv_Animales).EndInit();

@@ -90,6 +90,7 @@
             // 
             // dtgv_Duenos
             // 
+            dtgv_Duenos.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             dtgv_Duenos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dtgv_Duenos.Location = new Point(306, 43);
             dtgv_Duenos.Name = "dtgv_Duenos";
@@ -120,7 +121,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = SystemColors.GradientActiveCaption;
+            ClientSize = new Size(784, 454);
             Controls.Add(btn_Eliminar);
             Controls.Add(btn_Agregar);
             Controls.Add(dtgv_Duenos);
@@ -130,6 +132,8 @@
             Controls.Add(txt_Correo);
             Controls.Add(txt_Telefono);
             Controls.Add(txt_Nombre);
+            MaximumSize = new Size(800, 493);
+            MinimumSize = new Size(550, 493);
             Name = "Dueno";
             Text = "Dueno";
             ((System.ComponentModel.ISupportInitialize)dtgv_Duenos).EndInit();

@@ -51,6 +51,34 @@ namespace Veterinaria
                     {
                         cmdAnimales.ExecuteNonQuery();
                     }
+
+                    string queryReporte = @"CREATE TABLE IF NOT EXISTS Reportes (
+                                      id INT AUTO_INCREMENT PRIMARY KEY,
+                                      animal_id INT,
+                                      dueno VARCHAR(100),
+                                      fecha_reporte DATE,
+                                      observaciones TEXT,
+                                      FOREIGN KEY (animal_id) REFERENCES animales(id)
+                                     );";
+
+                    using (MySqlCommand cmdReporte = new MySqlCommand(queryReporte, conexion))
+                    {
+                        cmdReporte.ExecuteNonQuery();
+                    }
+
+                    string queryReporteSistema = @"CREATE TABLE IF NOT EXISTS reporte_sistema (
+                                        id INT AUTO_INCREMENT PRIMARY KEY,
+                                        fecha_generacion DATETIME,
+                                        total_animales INT,
+                                        total_duenos INT,
+                                        total_reportes INT,
+                                        observaciones TEXT
+                                       );";
+
+                    using (MySqlCommand cmdSistema = new MySqlCommand(queryReporteSistema, conexion))
+                    {
+                        cmdSistema.ExecuteNonQuery();
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -79,7 +107,8 @@ namespace Veterinaria
 
         private void reporteDeSistemaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            ReporteSistema frmReporteSistema = new ReporteSistema();
+            frmReporteSistema.Show();
         }
     }
 }

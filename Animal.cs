@@ -120,7 +120,42 @@ namespace Veterinaria
 
         private void btn_eliminarAnimal_Click(object sender, EventArgs e)
         {
+            if (dgv_Animales.SelectedRows.Count > 0)
+            {
+                int idDueno = Convert.ToInt32(dgv_Animales.SelectedRows[0].Cells["id"].Value);
 
+                DialogResult resultado = MessageBox.Show("¿Estás seguro de eliminar este Animal?", "Confirmar eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if (resultado == DialogResult.Yes)
+                {
+                    using (MySqlConnection conexion = new MySqlConnection(conexionString))
+                    {
+                        try
+                        {
+                            conexion.Open();
+                            string query = "DELETE FROM animales WHERE id = @id";
+
+                            using (MySqlCommand cmd = new MySqlCommand(query, conexion))
+                            {
+                                cmd.Parameters.AddWithValue("@id", idDueno);
+                                cmd.ExecuteNonQuery();
+
+                                MessageBox.Show("Animal eliminado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                CargarDatosAnimales();
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show("Error al eliminar un Animal: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Por favor, selecciona una fila de la tabla para eliminar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void Animal_Load(object sender, EventArgs e)

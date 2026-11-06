@@ -30,11 +30,11 @@
         {
             txt_Dueño = new TextBox();
             txt_contenidoReporte = new TextBox();
-            dia_turno = new DateTimePicker();
+            dia_Reporte = new DateTimePicker();
             lbl_Animal = new Label();
             lbl_Dueño = new Label();
             cmBox_Animal = new ComboBox();
-            lbl_Turno = new Label();
+            lbl_Reporte = new Label();
             btn_Agregar = new Button();
             SuspendLayout();
             // 
@@ -50,19 +50,23 @@
             // 
             // txt_contenidoReporte
             // 
-            txt_contenidoReporte.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            txt_contenidoReporte.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            txt_contenidoReporte.BackColor = SystemColors.HotTrack;
+            txt_contenidoReporte.ForeColor = SystemColors.WindowText;
             txt_contenidoReporte.Location = new Point(37, 172);
+            txt_contenidoReporte.Margin = new Padding(0);
+            txt_contenidoReporte.Multiline = true;
             txt_contenidoReporte.Name = "txt_contenidoReporte";
-            txt_contenidoReporte.Size = new Size(540, 23);
+            txt_contenidoReporte.Size = new Size(540, 80);
             txt_contenidoReporte.TabIndex = 2;
             // 
-            // dia_turno
+            // dia_Reporte
             // 
-            dia_turno.Format = DateTimePickerFormat.Short;
-            dia_turno.Location = new Point(37, 143);
-            dia_turno.Name = "dia_turno";
-            dia_turno.Size = new Size(100, 23);
-            dia_turno.TabIndex = 3;
+            dia_Reporte.Format = DateTimePickerFormat.Short;
+            dia_Reporte.Location = new Point(37, 143);
+            dia_Reporte.Name = "dia_Reporte";
+            dia_Reporte.Size = new Size(100, 23);
+            dia_Reporte.TabIndex = 3;
             // 
             // lbl_Animal
             // 
@@ -89,39 +93,42 @@
             cmBox_Animal.Name = "cmBox_Animal";
             cmBox_Animal.Size = new Size(100, 23);
             cmBox_Animal.TabIndex = 6;
+            cmBox_Animal.SelectedIndexChanged += cmBox_Animal_SelectedIndexChanged;
             // 
-            // lbl_Turno
+            // lbl_Reporte
             // 
-            lbl_Turno.AutoSize = true;
-            lbl_Turno.Location = new Point(37, 125);
-            lbl_Turno.Name = "lbl_Turno";
-            lbl_Turno.Size = new Size(78, 15);
-            lbl_Turno.TabIndex = 7;
-            lbl_Turno.Text = "Dia del Turno";
+            lbl_Reporte.AutoSize = true;
+            lbl_Reporte.Location = new Point(37, 125);
+            lbl_Reporte.Name = "lbl_Reporte";
+            lbl_Reporte.Size = new Size(87, 15);
+            lbl_Reporte.TabIndex = 7;
+            lbl_Reporte.Text = "Dia del Reporte";
             // 
             // btn_Agregar
             // 
-            btn_Agregar.Location = new Point(37, 212);
+            btn_Agregar.Location = new Point(180, 54);
             btn_Agregar.Name = "btn_Agregar";
-            btn_Agregar.Size = new Size(100, 23);
+            btn_Agregar.Size = new Size(115, 23);
             btn_Agregar.TabIndex = 8;
-            btn_Agregar.Text = "Agregar Turno";
+            btn_Agregar.Text = "Agregar Reporte";
             btn_Agregar.UseVisualStyleBackColor = true;
+            btn_Agregar.Click += btn_Agregar_Click;
             // 
             // reporteAnimal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.GradientActiveCaption;
             ClientSize = new Size(589, 264);
             Controls.Add(btn_Agregar);
-            Controls.Add(lbl_Turno);
+            Controls.Add(lbl_Reporte);
             Controls.Add(cmBox_Animal);
             Controls.Add(lbl_Dueño);
             Controls.Add(lbl_Animal);
-            Controls.Add(dia_turno);
+            Controls.Add(dia_Reporte);
             Controls.Add(txt_contenidoReporte);
             Controls.Add(txt_Dueño);
-            MaximumSize = new Size(605, 303);
+            MaximumSize = new Size(605, 500);
             MinimumSize = new Size(605, 303);
             Name = "reporteAnimal";
             Text = "reporteAnimal";
@@ -133,11 +140,11 @@
 
         private TextBox txt_Dueño;
         private TextBox txt_contenidoReporte;
-        private DateTimePicker dia_turno;
+        private DateTimePicker dia_Reporte;
         private Label lbl_Animal;
         private Label lbl_Dueño;
         private ComboBox cmBox_Animal;
-        private Label lbl_Turno;
+        private Label lbl_Reporte;
         private Button btn_Agregar;
     }
 }
