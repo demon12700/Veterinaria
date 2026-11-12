@@ -75,6 +75,7 @@
             // lbl_Animal
             // 
             lbl_Animal.AutoSize = true;
+            lbl_Animal.BackColor = SystemColors.ScrollBar;
             lbl_Animal.Location = new Point(32, 54);
             lbl_Animal.Name = "lbl_Animal";
             lbl_Animal.Size = new Size(104, 15);
@@ -84,6 +85,7 @@
             // lbl_Dueño
             // 
             lbl_Dueño.AutoSize = true;
+            lbl_Dueño.BackColor = SystemColors.ScrollBar;
             lbl_Dueño.Location = new Point(32, 111);
             lbl_Dueño.Name = "lbl_Dueño";
             lbl_Dueño.Size = new Size(99, 15);
@@ -101,6 +103,7 @@
             // lbl_Tiempo
             // 
             lbl_Tiempo.AutoSize = true;
+            lbl_Tiempo.BackColor = SystemColors.ScrollBar;
             lbl_Tiempo.Location = new Point(32, 168);
             lbl_Tiempo.Name = "lbl_Tiempo";
             lbl_Tiempo.Size = new Size(89, 15);
@@ -118,6 +121,7 @@
             // lbl_Especialista
             // 
             lbl_Especialista.AutoSize = true;
+            lbl_Especialista.BackColor = SystemColors.ScrollBar;
             lbl_Especialista.Location = new Point(32, 217);
             lbl_Especialista.Name = "lbl_Especialista";
             lbl_Especialista.Size = new Size(99, 15);
@@ -134,6 +138,7 @@
             // lbl_Info
             // 
             lbl_Info.AutoSize = true;
+            lbl_Info.BackColor = SystemColors.ScrollBar;
             lbl_Info.Location = new Point(32, 273);
             lbl_Info.Name = "lbl_Info";
             lbl_Info.Size = new Size(162, 15);
@@ -161,6 +166,7 @@
             // lbl_Reporte
             // 
             lbl_Reporte.AutoSize = true;
+            lbl_Reporte.BackColor = SystemColors.ScrollBar;
             lbl_Reporte.Location = new Point(32, 326);
             lbl_Reporte.Name = "lbl_Reporte";
             lbl_Reporte.Size = new Size(91, 15);
@@ -171,6 +177,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.MenuHighlight;
             ClientSize = new Size(301, 427);
             Controls.Add(lbl_Reporte);
             Controls.Add(cmb_Reportes);

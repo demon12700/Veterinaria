@@ -99,6 +99,7 @@ namespace Veterinaria
                                         id INT AUTO_INCREMENT PRIMARY KEY,
                                         Nombre TEXT,
                                         especializacion TEXT,
+                                        telefono INT,
                                         Estado TEXT
                                        );";
 

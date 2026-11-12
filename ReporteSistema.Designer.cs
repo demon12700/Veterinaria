@@ -34,6 +34,8 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
+            txt_Observaciones = new TextBox();
+            btn_Guardar = new Button();
             SuspendLayout();
             // 
             // txt_dueñosCantidad
@@ -93,12 +95,31 @@
             label3.TabIndex = 5;
             label3.Text = "Cantidad de Reportes";
             // 
+            // txt_Observaciones
+            // 
+            txt_Observaciones.Location = new Point(12, 241);
+            txt_Observaciones.Name = "txt_Observaciones";
+            txt_Observaciones.Size = new Size(298, 23);
+            txt_Observaciones.TabIndex = 6;
+            // 
+            // btn_Guardar
+            // 
+            btn_Guardar.Location = new Point(235, 71);
+            btn_Guardar.Name = "btn_Guardar";
+            btn_Guardar.Size = new Size(75, 23);
+            btn_Guardar.TabIndex = 7;
+            btn_Guardar.Text = "Guardar";
+            btn_Guardar.UseVisualStyleBackColor = true;
+            btn_Guardar.Click += btn_Guardar_Click;
+            // 
             // ReporteSistema
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientActiveCaption;
-            ClientSize = new Size(755, 450);
+            ClientSize = new Size(346, 450);
+            Controls.Add(btn_Guardar);
+            Controls.Add(txt_Observaciones);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -121,5 +142,7 @@
         private Label label1;
         private Label label2;
         private Label label3;
+        private TextBox txt_Observaciones;
+        private Button btn_Guardar;
     }
 }
