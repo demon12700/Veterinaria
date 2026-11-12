@@ -160,7 +160,6 @@ namespace Veterinaria
 
         private void Animal_Load(object sender, EventArgs e)
         {
-            dgv_Animales.DataSource = null;
             CargarDatosAnimales();
             CargarDuenos();
         }

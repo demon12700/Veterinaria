@@ -44,7 +44,6 @@ namespace Veterinaria
                         txt_dueñosCantidad.Text = resultado != null ? resultado.ToString() : "0";
                     }
 
-                    // 2. Contar total de animales
                     string queryAnimales = "SELECT COUNT(*) FROM animales";
                     using (MySqlCommand cmdAnimales = new MySqlCommand(queryAnimales, conexion))
                     {
@@ -52,7 +51,6 @@ namespace Veterinaria
                         txt_animalesCantidad.Text = resultado != null ? resultado.ToString() : "0";
                     }
 
-                    // 3. Contar total de reportes
                     string queryReportes = "SELECT COUNT(*) FROM Reportes";
                     using (MySqlCommand cmdReportes = new MySqlCommand(queryReportes, conexion))
                     {

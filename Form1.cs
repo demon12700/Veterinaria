@@ -79,6 +79,33 @@ namespace Veterinaria
                     {
                         cmdSistema.ExecuteNonQuery();
                     }
+
+                    string queryTurnos = @"CREATE TABLE IF NOT EXISTS turnos_animales (
+                                        id INT AUTO_INCREMENT PRIMARY KEY,
+                                        fecha_turno DATE,
+                                        animal_id INT,
+                                        dueno TEXT,
+                                        especialista_id INT,
+                                        observaciones TEXT,
+                                        reporte_id INT
+                                       );";
+
+                    using (MySqlCommand cmdSistema = new MySqlCommand(queryTurnos, conexion))
+                    {
+                        cmdSistema.ExecuteNonQuery();
+                    }
+
+                    string queryEspecialistas = @"CREATE TABLE IF NOT EXISTS especialistas (
+                                        id INT AUTO_INCREMENT PRIMARY KEY,
+                                        Nombre TEXT,
+                                        especializacion TEXT,
+                                        Estado TEXT
+                                       );";
+
+                    using (MySqlCommand cmdSistema = new MySqlCommand(queryEspecialistas, conexion))
+                    {
+                        cmdSistema.ExecuteNonQuery();
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -109,6 +136,18 @@ namespace Veterinaria
         {
             ReporteSistema frmReporteSistema = new ReporteSistema();
             frmReporteSistema.Show();
+        }
+
+        private void turnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Turno frmTurno = new Turno();
+            frmTurno.Show();
+        }
+
+        private void especialistaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Especialista frmEspecialista = new Especialista();
+            frmEspecialista.Show();
         }
     }
 }

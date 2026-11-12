@@ -32,12 +32,20 @@
             menuStrip1 = new MenuStrip();
             agregarToolStripMenuItem = new ToolStripMenuItem();
             animalToolStripMenuItem = new ToolStripMenuItem();
+            turnoToolStripMenuItem = new ToolStripMenuItem();
             dueñoToolStripMenuItem = new ToolStripMenuItem();
             reporteDeAnimalToolStripMenuItem = new ToolStripMenuItem();
             reporteDeSistemaToolStripMenuItem = new ToolStripMenuItem();
+            especialistaToolStripMenuItem = new ToolStripMenuItem();
             abrirToolStripMenuItem = new ToolStripMenuItem();
             reporteDeAnimalToolStripMenuItem1 = new ToolStripMenuItem();
             reporteDeSistemaToolStripMenuItem1 = new ToolStripMenuItem();
+            verEspecialistasToolStripMenuItem = new ToolStripMenuItem();
+            turnoToolStripMenuItem1 = new ToolStripMenuItem();
+            tscmb_ReporteAnimal = new ToolStripComboBox();
+            tscmb_ReporteSistema = new ToolStripComboBox();
+            tscmb_Especialistas = new ToolStripComboBox();
+            tscmb_Turnos = new ToolStripComboBox();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -56,7 +64,7 @@
             // 
             // agregarToolStripMenuItem
             // 
-            agregarToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { animalToolStripMenuItem, dueñoToolStripMenuItem, reporteDeAnimalToolStripMenuItem, reporteDeSistemaToolStripMenuItem });
+            agregarToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { animalToolStripMenuItem, turnoToolStripMenuItem, dueñoToolStripMenuItem, reporteDeAnimalToolStripMenuItem, reporteDeSistemaToolStripMenuItem, especialistaToolStripMenuItem });
             agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
             agregarToolStripMenuItem.Padding = new Padding(10, 0, 4, 0);
             agregarToolStripMenuItem.Size = new Size(74, 20);
@@ -68,6 +76,13 @@
             animalToolStripMenuItem.Size = new Size(193, 22);
             animalToolStripMenuItem.Text = "Animal";
             animalToolStripMenuItem.Click += animalToolStripMenuItem_Click;
+            // 
+            // turnoToolStripMenuItem
+            // 
+            turnoToolStripMenuItem.Name = "turnoToolStripMenuItem";
+            turnoToolStripMenuItem.Size = new Size(193, 22);
+            turnoToolStripMenuItem.Text = "Turno";
+            turnoToolStripMenuItem.Click += turnoToolStripMenuItem_Click;
             // 
             // dueñoToolStripMenuItem
             // 
@@ -90,24 +105,67 @@
             reporteDeSistemaToolStripMenuItem.Text = "Reporte de Sistema";
             reporteDeSistemaToolStripMenuItem.Click += reporteDeSistemaToolStripMenuItem_Click;
             // 
+            // especialistaToolStripMenuItem
+            // 
+            especialistaToolStripMenuItem.Name = "especialistaToolStripMenuItem";
+            especialistaToolStripMenuItem.Size = new Size(193, 22);
+            especialistaToolStripMenuItem.Text = "Especialista";
+            especialistaToolStripMenuItem.Click += especialistaToolStripMenuItem_Click;
+            // 
             // abrirToolStripMenuItem
             // 
-            abrirToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { reporteDeAnimalToolStripMenuItem1, reporteDeSistemaToolStripMenuItem1 });
+            abrirToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { reporteDeAnimalToolStripMenuItem1, reporteDeSistemaToolStripMenuItem1, verEspecialistasToolStripMenuItem, turnoToolStripMenuItem1 });
             abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
-            abrirToolStripMenuItem.Size = new Size(50, 20);
-            abrirToolStripMenuItem.Text = "Abrir";
+            abrirToolStripMenuItem.Size = new Size(39, 20);
+            abrirToolStripMenuItem.Text = "Ver";
             // 
             // reporteDeAnimalToolStripMenuItem1
             // 
+            reporteDeAnimalToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { tscmb_ReporteAnimal });
             reporteDeAnimalToolStripMenuItem1.Name = "reporteDeAnimalToolStripMenuItem1";
             reporteDeAnimalToolStripMenuItem1.Size = new Size(193, 22);
             reporteDeAnimalToolStripMenuItem1.Text = "Reporte de Animal";
             // 
             // reporteDeSistemaToolStripMenuItem1
             // 
+            reporteDeSistemaToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { tscmb_ReporteSistema });
             reporteDeSistemaToolStripMenuItem1.Name = "reporteDeSistemaToolStripMenuItem1";
             reporteDeSistemaToolStripMenuItem1.Size = new Size(193, 22);
             reporteDeSistemaToolStripMenuItem1.Text = "Reporte de Sistema";
+            // 
+            // verEspecialistasToolStripMenuItem
+            // 
+            verEspecialistasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tscmb_Especialistas });
+            verEspecialistasToolStripMenuItem.Name = "verEspecialistasToolStripMenuItem";
+            verEspecialistasToolStripMenuItem.Size = new Size(193, 22);
+            verEspecialistasToolStripMenuItem.Text = "ver Especialistas";
+            // 
+            // turnoToolStripMenuItem1
+            // 
+            turnoToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { tscmb_Turnos });
+            turnoToolStripMenuItem1.Name = "turnoToolStripMenuItem1";
+            turnoToolStripMenuItem1.Size = new Size(193, 22);
+            turnoToolStripMenuItem1.Text = "Turno";
+            // 
+            // tscmb_ReporteAnimal
+            // 
+            tscmb_ReporteAnimal.Name = "tscmb_ReporteAnimal";
+            tscmb_ReporteAnimal.Size = new Size(121, 23);
+            // 
+            // tscmb_ReporteSistema
+            // 
+            tscmb_ReporteSistema.Name = "tscmb_ReporteSistema";
+            tscmb_ReporteSistema.Size = new Size(121, 23);
+            // 
+            // tscmb_Especialistas
+            // 
+            tscmb_Especialistas.Name = "tscmb_Especialistas";
+            tscmb_Especialistas.Size = new Size(121, 23);
+            // 
+            // tscmb_Turnos
+            // 
+            tscmb_Turnos.Name = "tscmb_Turnos";
+            tscmb_Turnos.Size = new Size(121, 23);
             // 
             // Form1
             // 
@@ -138,7 +196,15 @@
         private ToolStripMenuItem reporteDeAnimalToolStripMenuItem;
         private ToolStripMenuItem reporteDeSistemaToolStripMenuItem;
         private ToolStripMenuItem abrirToolStripMenuItem;
+        private ToolStripMenuItem turnoToolStripMenuItem;
         private ToolStripMenuItem reporteDeAnimalToolStripMenuItem1;
         private ToolStripMenuItem reporteDeSistemaToolStripMenuItem1;
+        private ToolStripMenuItem turnoToolStripMenuItem1;
+        private ToolStripMenuItem especialistaToolStripMenuItem;
+        private ToolStripMenuItem verEspecialistasToolStripMenuItem;
+        private ToolStripComboBox tscmb_ReporteAnimal;
+        private ToolStripComboBox tscmb_ReporteSistema;
+        private ToolStripComboBox tscmb_Especialistas;
+        private ToolStripComboBox tscmb_Turnos;
     }
 }

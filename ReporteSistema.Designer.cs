@@ -80,18 +80,18 @@
             label2.AutoSize = true;
             label2.Location = new Point(12, 113);
             label2.Name = "label2";
-            label2.Size = new Size(114, 15);
+            label2.Size = new Size(123, 15);
             label2.TabIndex = 4;
-            label2.Text = "Cantidad de Dueños";
+            label2.Text = "Cantidad de Animales";
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Location = new Point(12, 172);
             label3.Name = "label3";
-            label3.Size = new Size(114, 15);
+            label3.Size = new Size(120, 15);
             label3.TabIndex = 5;
-            label3.Text = "Cantidad de Dueños";
+            label3.Text = "Cantidad de Reportes";
             // 
             // ReporteSistema
             // 
