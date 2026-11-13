@@ -31,21 +31,17 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             menuStrip1 = new MenuStrip();
             agregarToolStripMenuItem = new ToolStripMenuItem();
+            especialistaToolStripMenuItem = new ToolStripMenuItem();
             animalToolStripMenuItem = new ToolStripMenuItem();
-            turnoToolStripMenuItem = new ToolStripMenuItem();
             dueñoToolStripMenuItem = new ToolStripMenuItem();
             reporteDeAnimalToolStripMenuItem = new ToolStripMenuItem();
             reporteDeSistemaToolStripMenuItem = new ToolStripMenuItem();
-            especialistaToolStripMenuItem = new ToolStripMenuItem();
+            turnoToolStripMenuItem = new ToolStripMenuItem();
             abrirToolStripMenuItem = new ToolStripMenuItem();
             reporteDeAnimalToolStripMenuItem1 = new ToolStripMenuItem();
-            tscmb_ReporteAnimal = new ToolStripComboBox();
             reporteDeSistemaToolStripMenuItem1 = new ToolStripMenuItem();
-            tscmb_ReporteSistema = new ToolStripComboBox();
             verEspecialistasToolStripMenuItem = new ToolStripMenuItem();
-            tscmb_Especialistas = new ToolStripComboBox();
             turnoToolStripMenuItem1 = new ToolStripMenuItem();
-            tscmb_Turnos = new ToolStripComboBox();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -70,19 +66,19 @@
             agregarToolStripMenuItem.Size = new Size(74, 20);
             agregarToolStripMenuItem.Text = "Agregar";
             // 
+            // especialistaToolStripMenuItem
+            // 
+            especialistaToolStripMenuItem.Name = "especialistaToolStripMenuItem";
+            especialistaToolStripMenuItem.Size = new Size(193, 22);
+            especialistaToolStripMenuItem.Text = "Especialista";
+            especialistaToolStripMenuItem.Click += especialistaToolStripMenuItem_Click;
+            // 
             // animalToolStripMenuItem
             // 
             animalToolStripMenuItem.Name = "animalToolStripMenuItem";
             animalToolStripMenuItem.Size = new Size(193, 22);
             animalToolStripMenuItem.Text = "Animal";
             animalToolStripMenuItem.Click += animalToolStripMenuItem_Click;
-            // 
-            // turnoToolStripMenuItem
-            // 
-            turnoToolStripMenuItem.Name = "turnoToolStripMenuItem";
-            turnoToolStripMenuItem.Size = new Size(193, 22);
-            turnoToolStripMenuItem.Text = "Turno";
-            turnoToolStripMenuItem.Click += turnoToolStripMenuItem_Click;
             // 
             // dueñoToolStripMenuItem
             // 
@@ -105,12 +101,12 @@
             reporteDeSistemaToolStripMenuItem.Text = "Reporte de Sistema";
             reporteDeSistemaToolStripMenuItem.Click += reporteDeSistemaToolStripMenuItem_Click;
             // 
-            // especialistaToolStripMenuItem
+            // turnoToolStripMenuItem
             // 
-            especialistaToolStripMenuItem.Name = "especialistaToolStripMenuItem";
-            especialistaToolStripMenuItem.Size = new Size(193, 22);
-            especialistaToolStripMenuItem.Text = "Especialista";
-            especialistaToolStripMenuItem.Click += especialistaToolStripMenuItem_Click;
+            turnoToolStripMenuItem.Name = "turnoToolStripMenuItem";
+            turnoToolStripMenuItem.Size = new Size(193, 22);
+            turnoToolStripMenuItem.Text = "Turno";
+            turnoToolStripMenuItem.Click += turnoToolStripMenuItem_Click;
             // 
             // abrirToolStripMenuItem
             // 
@@ -121,51 +117,31 @@
             // 
             // reporteDeAnimalToolStripMenuItem1
             // 
-            reporteDeAnimalToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { tscmb_ReporteAnimal });
             reporteDeAnimalToolStripMenuItem1.Name = "reporteDeAnimalToolStripMenuItem1";
             reporteDeAnimalToolStripMenuItem1.Size = new Size(193, 22);
             reporteDeAnimalToolStripMenuItem1.Text = "Reporte de Animal";
-            // 
-            // tscmb_ReporteAnimal
-            // 
-            tscmb_ReporteAnimal.Name = "tscmb_ReporteAnimal";
-            tscmb_ReporteAnimal.Size = new Size(121, 23);
+            reporteDeAnimalToolStripMenuItem1.Click += reporteDeAnimalToolStripMenuItem1_Click;
             // 
             // reporteDeSistemaToolStripMenuItem1
             // 
-            reporteDeSistemaToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { tscmb_ReporteSistema });
             reporteDeSistemaToolStripMenuItem1.Name = "reporteDeSistemaToolStripMenuItem1";
             reporteDeSistemaToolStripMenuItem1.Size = new Size(193, 22);
             reporteDeSistemaToolStripMenuItem1.Text = "Reporte de Sistema";
-            // 
-            // tscmb_ReporteSistema
-            // 
-            tscmb_ReporteSistema.Name = "tscmb_ReporteSistema";
-            tscmb_ReporteSistema.Size = new Size(121, 23);
+            reporteDeSistemaToolStripMenuItem1.Click += reporteDeSistemaToolStripMenuItem1_Click;
             // 
             // verEspecialistasToolStripMenuItem
             // 
-            verEspecialistasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tscmb_Especialistas });
             verEspecialistasToolStripMenuItem.Name = "verEspecialistasToolStripMenuItem";
             verEspecialistasToolStripMenuItem.Size = new Size(193, 22);
             verEspecialistasToolStripMenuItem.Text = "ver Especialistas";
-            // 
-            // tscmb_Especialistas
-            // 
-            tscmb_Especialistas.Name = "tscmb_Especialistas";
-            tscmb_Especialistas.Size = new Size(121, 23);
+            verEspecialistasToolStripMenuItem.Click += verEspecialistasToolStripMenuItem_Click;
             // 
             // turnoToolStripMenuItem1
             // 
-            turnoToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { tscmb_Turnos });
             turnoToolStripMenuItem1.Name = "turnoToolStripMenuItem1";
             turnoToolStripMenuItem1.Size = new Size(193, 22);
-            turnoToolStripMenuItem1.Text = "Turno";
-            // 
-            // tscmb_Turnos
-            // 
-            tscmb_Turnos.Name = "tscmb_Turnos";
-            tscmb_Turnos.Size = new Size(121, 23);
+            turnoToolStripMenuItem1.Text = "Ver Turnos";
+            turnoToolStripMenuItem1.Click += turnoToolStripMenuItem1_Click;
             // 
             // Form1
             // 
@@ -202,9 +178,5 @@
         private ToolStripMenuItem turnoToolStripMenuItem1;
         private ToolStripMenuItem especialistaToolStripMenuItem;
         private ToolStripMenuItem verEspecialistasToolStripMenuItem;
-        private ToolStripComboBox tscmb_ReporteAnimal;
-        private ToolStripComboBox tscmb_ReporteSistema;
-        private ToolStripComboBox tscmb_Especialistas;
-        private ToolStripComboBox tscmb_Turnos;
     }
 }

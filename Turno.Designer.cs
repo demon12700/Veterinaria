@@ -97,7 +97,7 @@
             dtp_FechaTurno.Format = DateTimePickerFormat.Short;
             dtp_FechaTurno.Location = new Point(41, 186);
             dtp_FechaTurno.Name = "dtp_FechaTurno";
-            dtp_FechaTurno.Size = new Size(100, 23);
+            dtp_FechaTurno.Size = new Size(82, 23);
             dtp_FechaTurno.TabIndex = 5;
             // 
             // lbl_Tiempo
@@ -115,7 +115,7 @@
             cmb_Especialista.FormattingEnabled = true;
             cmb_Especialista.Location = new Point(41, 235);
             cmb_Especialista.Name = "cmb_Especialista";
-            cmb_Especialista.Size = new Size(100, 23);
+            cmb_Especialista.Size = new Size(188, 23);
             cmb_Especialista.TabIndex = 7;
             // 
             // lbl_Especialista
@@ -147,9 +147,10 @@
             // 
             // btn_AñadirTurno
             // 
-            btn_AñadirTurno.Location = new Point(196, 71);
+            btn_AñadirTurno.Font = new Font("Segoe UI", 14F);
+            btn_AñadirTurno.Location = new Point(177, 66);
             btn_AñadirTurno.Name = "btn_AñadirTurno";
-            btn_AñadirTurno.Size = new Size(75, 23);
+            btn_AñadirTurno.Size = new Size(99, 60);
             btn_AñadirTurno.TabIndex = 11;
             btn_AñadirTurno.Text = "Añadir";
             btn_AñadirTurno.UseVisualStyleBackColor = true;

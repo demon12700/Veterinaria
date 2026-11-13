@@ -63,9 +63,10 @@
             // 
             // btn_Agregar
             // 
+            btn_Agregar.Font = new Font("Segoe UI", 14F);
             btn_Agregar.Location = new Point(196, 31);
             btn_Agregar.Name = "btn_Agregar";
-            btn_Agregar.Size = new Size(75, 23);
+            btn_Agregar.Size = new Size(121, 70);
             btn_Agregar.TabIndex = 3;
             btn_Agregar.Text = "Agregar";
             btn_Agregar.UseVisualStyleBackColor = true;
@@ -123,7 +124,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientActiveCaption;
-            ClientSize = new Size(344, 201);
+            ClientSize = new Size(344, 220);
             Controls.Add(lbl_Estado);
             Controls.Add(lbl_Telefono);
             Controls.Add(lbl_Especialisacion);
@@ -133,6 +134,7 @@
             Controls.Add(cmb_Estado);
             Controls.Add(txt_Espicializacion);
             Controls.Add(txt_Nombre);
+            MinimumSize = new Size(360, 259);
             Name = "Especialista";
             Text = "Especialista";
             ResumeLayout(false);

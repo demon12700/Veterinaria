@@ -22,5 +22,11 @@
     <Compile Update="ReporteSistema.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="VerReporteAnimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VerTurnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

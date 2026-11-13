@@ -45,3 +45,5 @@ C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.P
 C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.ReporteSistema.resources
 C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.Turno.resources
 C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.Especialista.resources
+C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.VerReporteAnimal.resources
+C:\Users\pc\Desktop\VetSystem\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.VerTurnos.resources

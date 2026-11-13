@@ -150,5 +150,28 @@ namespace Veterinaria
             Especialista frmEspecialista = new Especialista();
             frmEspecialista.Show();
         }
+
+        private void reporteDeAnimalToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            VerReporteAnimal verReporteAnimal = new VerReporteAnimal();
+            verReporteAnimal.Show();
+        }
+        private void turnoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            VerTurnos verTurnos = new VerTurnos();
+            verTurnos.Show();
+        }
+
+        private void reporteDeSistemaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void verEspecialistasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }
